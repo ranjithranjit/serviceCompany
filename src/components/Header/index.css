@@ -1,0 +1,53 @@
+:root{
+    --main-background-color: ;
+    --main-text-color: ;
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    transition: all 3s ease;
+}
+.menu ul li{
+    cursor: pointer;
+    transition: all .5s ease;
+    padding: 10px 2px;    
+    font-size: smaller;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}   
+.menu ul li:hover{
+    scale: 1.1;
+    color: #a29d9d;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+}
+.HeaderContainer{
+    margin: auto;
+    width: 94%;
+    min-height: 9vh;
+    max-height: 9vh;
+    display: flex;
+}
+.logoContainer{
+    margin: auto;
+    flex: 1;
+    background: var(--text-color);
+}
